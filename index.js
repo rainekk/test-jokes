@@ -19,8 +19,8 @@ app.get('/ping', (req, res) => {
   res.send('pong');
 });
 
-app.get('/count', (req, res) => {
-  res.json({jokes: count});
+app.get('/jokes/count', (req, res) => {
+  res.json({count: count});
 });
 
 app.get('/random_joke', (req, res) => {
