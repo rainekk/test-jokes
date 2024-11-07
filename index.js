@@ -20,7 +20,7 @@ app.get('/ping', (req, res) => {
 });
 
 app.get('/jokes/count', (req, res) => {
-  res.json({count: count});
+  res.json({jokes: count});
 });
 
 app.get('/random_joke', (req, res) => {
