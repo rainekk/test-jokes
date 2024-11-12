@@ -1,0 +1,11 @@
+version: "1"
+
+services:
+  test-jokes:
+    container_name: test-jokes
+    image: rainekk/test-jokes
+    ports:
+      - "5000:5000/tcp"
+      
+volumes:
+  data:
