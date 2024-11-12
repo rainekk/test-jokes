@@ -1,4 +1,4 @@
 FROM node:22
-RUN npm install -g
+RUN npm install
 EXPOSE 8080
 CMD [ "node", "index.js" ]
